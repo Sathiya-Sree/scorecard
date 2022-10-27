@@ -1,0 +1,51 @@
+body {
+    margin: 0;
+    background: #153462
+    
+}
+@font-face{ 
+    src: url("font.ttf"); 
+    font-family: segment; 
+    }
+.container {
+    display: flex;
+    justify-content: space-around;
+    color: #F8FFDB;
+    
+}
+.cls1{
+    font-family: segment;
+    background: #153462;
+    color: #4FA095;
+    padding:10px;
+    border: 2px solid #4FA095;
+    border-radius: 5px;
+}
+.cls2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.cls3{
+    font-family: segment;
+    background: black;
+    color:#FF6464;
+    width: 50px;
+    height: 50px;
+    margin-bottom:20px;
+    padding:10px 20px 10px 10px;
+    font-size:50px;
+}
+.cls4{
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    margin-top: 30px;
+}
+.cls5{
+    border:2px solid black;
+    border-radius: 5px;
+    background: #4FA095;
+    padding:5px;
+    font-weight: bold;
+}
